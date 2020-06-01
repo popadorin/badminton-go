@@ -7,6 +7,8 @@ var urlsToCache = [
 // Install a service worker
 self.addEventListener('install', event => {
     // Perform install steps
+    console.log('Install is called')
+
     event.waitUntil(
         caches.open(CACHE_NAME)
             .then(function(cache) {
@@ -18,6 +20,7 @@ self.addEventListener('install', event => {
 
 // Cache and return requests
 self.addEventListener('fetch', event => {
+    console.log('Fetch is called')
     event.respondWith(
         caches.match(event.request)
             .then(function(response) {
@@ -33,6 +36,7 @@ self.addEventListener('fetch', event => {
 
 // Update a service worker
 self.addEventListener('activate', event => {
+    console.log('Activate is called')
     var cacheWhitelist = ['badminton-go'];
     event.waitUntil(
         caches.keys().then(cacheNames => {

@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="App">
       <div>Badminton GO</div>
+      <button id="installButton">Install</button>
     </div>
   );
 }
