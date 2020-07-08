@@ -10,7 +10,7 @@ function getIndexToTab(index: number): ReactElement {
   return IndexToTabConfig[index];
 }
 
-export const TabContent = ({index}: Props) => {
+export const AppContent = ({index}: Props) => {
   return (
     <div style={{
       height: '100vh',

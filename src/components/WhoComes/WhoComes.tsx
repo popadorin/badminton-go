@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const WhoComes = () => {
-  const arr = ['unu', 'doi', 'trei'];
+  const arr = ['Leosha', 'Katea', 'Dima'];
   return (
     <div>
       {
