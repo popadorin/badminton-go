@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/badminton-go/static/css/main.69ad5d68.chunk.css",
+    "main.js": "/badminton-go/static/js/main.df2275f4.chunk.js",
+    "main.js.map": "/badminton-go/static/js/main.df2275f4.chunk.js.map",
+    "runtime-main.js": "/badminton-go/static/js/runtime-main.bc4f0aca.js",
+    "runtime-main.js.map": "/badminton-go/static/js/runtime-main.bc4f0aca.js.map",
+    "static/css/2.ab3ddf24.chunk.css": "/badminton-go/static/css/2.ab3ddf24.chunk.css",
+    "static/js/2.31a49c87.chunk.js": "/badminton-go/static/js/2.31a49c87.chunk.js",
+    "static/js/2.31a49c87.chunk.js.map": "/badminton-go/static/js/2.31a49c87.chunk.js.map",
+    "index.html": "/badminton-go/index.html",
+    "precache-manifest.f9f90492617c5f620d88e8a76661dac2.js": "/badminton-go/precache-manifest.f9f90492617c5f620d88e8a76661dac2.js",
+    "service-worker.js": "/badminton-go/service-worker.js",
+    "static/css/2.ab3ddf24.chunk.css.map": "/badminton-go/static/css/2.ab3ddf24.chunk.css.map",
+    "static/css/main.69ad5d68.chunk.css.map": "/badminton-go/static/css/main.69ad5d68.chunk.css.map",
+    "static/js/2.31a49c87.chunk.js.LICENSE.txt": "/badminton-go/static/js/2.31a49c87.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bc4f0aca.js",
+    "static/css/2.ab3ddf24.chunk.css",
+    "static/js/2.31a49c87.chunk.js",
+    "static/css/main.69ad5d68.chunk.css",
+    "static/js/main.df2275f4.chunk.js"
+  ]
+}
