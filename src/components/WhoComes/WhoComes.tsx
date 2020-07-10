@@ -1,16 +1,22 @@
 import React from 'react';
+import {Player} from '../../models';
 
-export const WhoComes = () => {
-  const arr = ['Leosha', 'Katea', 'Dima'];
+export function WhoComes() {
   return (
     <div>
       {
-        arr.map(el => (
-          <div>
-            {el}
+        dummyWhoComes.map((el, index) => (
+          <div key={index}>
+            {el.name}
           </div>
         ))
       }
     </div>
   );
-};
+}
+
+const dummyWhoComes: Player[] = [
+  {name: 'Leosha'},
+  {name: 'Katea'},
+  {name: 'Dima'}
+];

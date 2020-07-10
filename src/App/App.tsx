@@ -27,7 +27,7 @@ function App() {
       >
         {
           getEnumValues(TabItemTitle).map((tabItemTitle: string) => (
-            <Tab>
+            <Tab key={tabItemTitle}>
               <span className='mdc-tab__text-label'>{tabItemTitle}</span>
             </Tab>
           ))
