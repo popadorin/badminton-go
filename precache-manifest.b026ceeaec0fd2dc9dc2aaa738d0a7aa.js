@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0728ed3fbdf91d8e89e8a13531fcc8cd",
+    "revision": "11d68d630b78b4b99f064b028e3e2796",
     "url": "/badminton-go/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/badminton-go/static/css/2.e1bf57a8.chunk.css"
   },
   {
-    "revision": "71cf96530cb20512cfcf",
+    "revision": "aa7e82a31cea609dae59",
     "url": "/badminton-go/static/css/main.2496f296.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/badminton-go/static/js/2.2adee7e0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "71cf96530cb20512cfcf",
-    "url": "/badminton-go/static/js/main.ef121566.chunk.js"
+    "revision": "aa7e82a31cea609dae59",
+    "url": "/badminton-go/static/js/main.f18f76ad.chunk.js"
   },
   {
     "revision": "11ab9e65508745a9e918",
