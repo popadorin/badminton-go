@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dd79a29e5dfd8e9e52bcaeba7fdbb23c",
+    "revision": "296b3632b6b920b3c2adfbc9eb844ebf",
     "url": "/badminton-go/index.html"
   },
   {
