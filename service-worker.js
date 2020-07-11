@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/badminton-go/precache-manifest.22bf8f2a4b427ed54be18114641226ca.js"
+  "/badminton-go/precache-manifest.dd0dc1468daf6044e61ece9bd8e2e2a4.js"
 );
 
 self.addEventListener('message', (event) => {
