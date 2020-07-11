@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/badminton-go/static/css/main.2496f296.chunk.css",
-    "main.js": "/badminton-go/static/js/main.cb8ee90b.chunk.js",
-    "main.js.map": "/badminton-go/static/js/main.cb8ee90b.chunk.js.map",
+    "main.js": "/badminton-go/static/js/main.ef121566.chunk.js",
+    "main.js.map": "/badminton-go/static/js/main.ef121566.chunk.js.map",
     "runtime-main.js": "/badminton-go/static/js/runtime-main.e21e1dbd.js",
     "runtime-main.js.map": "/badminton-go/static/js/runtime-main.e21e1dbd.js.map",
     "static/css/2.e1bf57a8.chunk.css": "/badminton-go/static/css/2.e1bf57a8.chunk.css",
     "static/js/2.2adee7e0.chunk.js": "/badminton-go/static/js/2.2adee7e0.chunk.js",
     "static/js/2.2adee7e0.chunk.js.map": "/badminton-go/static/js/2.2adee7e0.chunk.js.map",
     "index.html": "/badminton-go/index.html",
-    "precache-manifest.77c69a24a51ece490aacf04a934f4963.js": "/badminton-go/precache-manifest.77c69a24a51ece490aacf04a934f4963.js",
+    "precache-manifest.47aaf035cb500fab5cc50a75dc3ba7fb.js": "/badminton-go/precache-manifest.47aaf035cb500fab5cc50a75dc3ba7fb.js",
     "service-worker.js": "/badminton-go/service-worker.js",
     "static/css/2.e1bf57a8.chunk.css.map": "/badminton-go/static/css/2.e1bf57a8.chunk.css.map",
     "static/css/main.2496f296.chunk.css.map": "/badminton-go/static/css/main.2496f296.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.e1bf57a8.chunk.css",
     "static/js/2.2adee7e0.chunk.js",
     "static/css/main.2496f296.chunk.css",
-    "static/js/main.cb8ee90b.chunk.js"
+    "static/js/main.ef121566.chunk.js"
   ]
 }
