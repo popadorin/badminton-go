@@ -8,6 +8,7 @@ import '@material/react-tab-indicator/dist/tab-indicator.css';
 import {AppContent} from '../components';
 import {TabItemTitle} from '../config';
 import {getEnumValues} from '../utils';
+import {AddToHomeScreen} from '../components';
 import './App.css';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       flexDirection: 'column',
       justifyContent: 'space-between'
     }}>
+      <AddToHomeScreen />
       <AppContent index={activeIndex}/>
       <TabBar
         activeIndex={activeIndex}

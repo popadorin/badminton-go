@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="./favicon.ico" />
-<!--    <meta http-equiv="Refresh" content="2; url=public/index.html">-->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="mobile-web-app-capable" content="yes">
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
@@ -29,9 +29,10 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-<!--    <button id="installButton">Install</button>-->
 
     <div id="root"></div>
+<!--        <button id="installButton">Install</button>-->
+
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -59,7 +60,7 @@
       //   console.log('Service Worker is not supported by browser.');
       // }
       //
-      // // var buttonInstall = document.getElementById('installButton');
+      // var buttonInstall = document.getElementById('installButton');
       //
       // let deferredPrompt;
       //
@@ -74,25 +75,26 @@
       // });
       //
       //
-      // // buttonInstall.addEventListener('click', (e) => {
-      // //   console.log('button click called!')
-      // //   // Hide the app provided install promotion
-      // //   // hideMyInstallPromotion();
-      // //   // Show the install prompt
-      // //   if (deferredPrompt) {
-      // //     deferredPrompt.prompt();
-      // //   } else {
-      // //     console.log('Not supported the beforeInstallPrompt event')
-      // //   }
-      // //   // Wait for the user to respond to the prompt
-      // //   deferredPrompt.userChoice.then((choiceResult) => {
-      // //     if (choiceResult.outcome === 'accepted') {
-      // //       console.log('User accepted the install prompt');
-      // //     } else {
-      // //       console.log('User dismissed the install prompt');
-      // //     }
-      // //   });
-      // // });
+      // buttonInstall.addEventListener('click', (e) => {
+      //   console.log('button click called!')
+      //   // Hide the app provided install promotion
+      //   // hideMyInstallPromotion();
+      //   // Show the install prompt
+      //   if (deferredPrompt) {
+      //     deferredPrompt.prompt();
+      //
+      //     deferredPrompt.userChoice.then((choiceResult) => {
+      //       if (choiceResult.outcome === 'accepted') {
+      //         console.log('User accepted the install prompt');
+      //       } else {
+      //         console.log('User dismissed the install prompt');
+      //       }
+      //     });
+      //   } else {
+      //     console.log('Not supported the beforeInstallPrompt event')
+      //   }
+      //   // Wait for the user to respond to the prompt
+      // });
       //
       // window.addEventListener('appinstalled', (evt) => {
       //   // Log install to analytics
